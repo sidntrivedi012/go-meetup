@@ -45,3 +45,5 @@ func getmeetups(url string) string {
 	}
 	return ""
 }
+
+func main() {}
