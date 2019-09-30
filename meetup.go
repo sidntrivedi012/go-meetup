@@ -42,7 +42,7 @@ func getmeetups(url string) string {
 	if (len(meetups)) > 0 {
 		finallist = "Title -" + "\t" + meetups[0].Name + "\n" + "Date -" + "\t" + meetups[0].Date + "\n" + "Link -" + "\t" + meetups[0].Link + "\n\n"
 		return finallist
-	} else {
+	} else if len(meetups) <= 0 {
 		return finallist
 	}
 	return ""
