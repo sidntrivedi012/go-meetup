@@ -45,5 +45,5 @@ func getmeetups(url string) string {
 	} else {
 		return finallist
 	}
-
+	return ""
 }
