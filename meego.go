@@ -1,4 +1,4 @@
-package meetup
+package meego
 
 import (
 	"encoding/json"
