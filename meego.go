@@ -1,4 +1,4 @@
-package main
+package meetup
 
 import (
 	"encoding/json"
